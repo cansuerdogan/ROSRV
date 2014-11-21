@@ -15,8 +15,11 @@ ROSRV enforces access control based on a user-provided specification of access p
 The policies are currently categorized into four different sections. Under each section, the access policy is written as a key followed by an assignment symbol and a list of values.
 
 `[Nodes]`: *key* = node name, *value* = machine identity allowed to create the specified nodes
+
 `[Subscribers]`: *key* = topic name, *value* = node identity allowed to subscribe to the topic
+
 `[Publishers]`: *key* = topic name, *value* = node identity allowed to publish to the topic
+
 `[Commands]`: *key* = command name, *value* = node identity allowed to perform the command
 
 The following is a sample access control policy for LandShark.

@@ -17,7 +17,7 @@ v.1.8 or higher
 
 ## Install and Build
 
-1. Run `git clone -- recursive https://github.com/runtimeverification/ROSRV.git` 
+1. Run `git clone --recursive https://github.com/runtimeverification/ROSRV.git` 
 to check out the source code from the Github repository, including ROSMOP.
 
 2. Add `<ROSRV_HOME>/bin` to your PATH.

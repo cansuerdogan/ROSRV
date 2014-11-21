@@ -1,0 +1,3 @@
+[submodule "rosmop"]
+	path = rosmop
+	url = git@github.com:cnserd/rosmop.git

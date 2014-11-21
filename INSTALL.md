@@ -1,8 +1,7 @@
-# Installing JavaMOP from Binaries
+# Installing ROSRV from source code
 
-Here are instructions for installing JavaMOP from its binary release
-zip archive. Users who checked out the source code should follow the
-instructions in [src/README.md](src/README.md) to build JavaMOP.
+Here are instructions for installing ROSRV by checking out its source code on 
+GitHub.
 
 ## Prerequisites
 
@@ -13,21 +12,21 @@ purposes, ROSRV depends on ROSMOP.
 v.1.8 or higher
  * Check Git is installed properly: run `git` from a terminal.
 2. [ROS Groovy Galapagos](http://wiki.ros.org/groovy)
-3. [ROSMOP](https://github.com/runtimeverification/rosmop)
- * Please check [ROSMOP Installation guide](LINK).
+3. [ROSMOP](http://fsl.cs.illinois.edu/index.php/ROSMOP)
+ * Please check [ROSMOP Installation guide](rosmop/INSTALL.md).
 
 ## Install and Build
 
-1. Run 'git clone -- recursive https://github.com/runtimeverification/ROSRV.git' 
+1. Run `git clone -- recursive https://github.com/runtimeverification/ROSRV.git` 
 to check out the source code from the Github repository, including ROSMOP.
 
 2. Add `<ROSRV_HOME>/bin` to your PATH.
 
-3. Follow the instructions in '<ROSRV_HOME>/rosmop/INSTALL.md'.
+3. Follow the instructions in `<ROSRV_HOME>/rosmop/INSTALL.md`.
 
 4. Run 
- * 'cd <ROSRV_HOME>'
- * 'catkin_make'
+ * `cd <ROSRV_HOME>`
+ * `catkin_make`
 
 5. Make sure the target package builds successfully.
 

@@ -12,7 +12,7 @@ monitoring infrastructure that intercepts, observes and optionally modifies
 messages passing through the system, to check system's runtime behavior against 
 user-defined safety properties and perform desired actions. For automatic 
 monitor generation out of formal specifications, ROSRV depends on 
-[ROSMOP](https://github.com/runtimeverification/rosmop). ROSRV regulates system 
+[ROSMOP](http://fsl.cs.illinois.edu/index.php/ROSMOP). ROSRV regulates system 
 state and execution of commands by enforcing a user-defined access control 
 policy to address security concerns.
 

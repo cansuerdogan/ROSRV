@@ -1,0 +1,9 @@
+#!/bin/bash 
+
+SHDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$(dirname $SHDIR)"
+
+export ROS_MASTER_URI="http://localhost:11311/"
+export REAL_MASTER_URI="http://localhost:12345/"
+export ACCESS_POLICY_PATH=$DIR/config/access-policy.cfg
+rosrun rvmaster rvmaster_rosmaster

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="/chatter_topic" value="/chatter" />
+  <node pkg="rvmaster" type="live_pub.py" name="live_pub" output="screen">
+    <param name="pub_rate_hz" value="0.5" />
+  </node> 
+  <node pkg="rvmaster" type="live_sub" name="live_sub" output="screen">
+  </node> 
+  <node pkg="rvmaster" type="live_pub.py" name="live_pub2" output="screen">
+    <param name="pub_rate_hz" value="0.3" />
+  </node> 
+  <node pkg="rvmaster" type="live_pub.py" name="live_pub3" output="screen">
+    <param name="chatter_topic" value="/disgruntled_chatter" />
+    <param name="pub_rate_hz" value="0.2" />
+  </node> 
+  <node pkg="rvmaster" type="live_sub.py" name="live_sub2" output="screen">
+    <param name="chatter_topic" value="/chatter" />
+  </node> 
+  <node pkg="rvmaster" type="live_sub.py" name="live_sub3" output="screen">
+    <param name="chatter_topic" value="/disgruntled_chatter" />
+  </node> 
+</launch> 
+

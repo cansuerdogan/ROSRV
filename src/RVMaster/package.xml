@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package>
+  <name>rvmaster</name>
+  <version>1.0.0</version>
+  <description>The RVMaster package</description>
+
+  <maintainer email="mop@cs.uiuc.edu">FSL@UIUC</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+
+</package>

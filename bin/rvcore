@@ -1,0 +1,14 @@
+#!/bin/bash
+
+SHDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+DIR="$(dirname $SHDIR)"
+
+function startup() {
+	source devel/setup.sh
+	source bin/rvmaster
+}
+
+roscore -p 12345 &
+
+export -f startup
+gnome-terminal --working-directory=$DIR --execute bash -c "startup ; bash"

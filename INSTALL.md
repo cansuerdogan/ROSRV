@@ -13,7 +13,8 @@ v.1.8 or higher
  * Check Git is installed properly: run `git` from a terminal.
 2. [ROS Groovy Galapagos](http://wiki.ros.org/groovy)
 3. [ROSMOP](http://fsl.cs.illinois.edu/index.php/ROSMOP)
- * Please check the [ROSMOP Installation guide](rosmop/INSTALL.md).
+ * Please check the 
+   [ROSMOP Installation guide](https://github.com/runtimeverification/rosmop/INSTALL.md).
 
 ## Install and Build
 

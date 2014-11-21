@@ -1,7 +1,7 @@
-# Installing ROSRV from source code
+# Installing ROSRV
 
-Here are instructions for installing ROSRV by checking out its source code on 
-GitHub.
+Here are instructions for installing and building ROSRV by checking out its 
+source code on GitHub.
 
 ## Prerequisites
 

@@ -13,7 +13,7 @@ v.1.8 or higher
  * Check Git is installed properly: run `git` from a terminal.
 2. [ROS Groovy Galapagos](http://wiki.ros.org/groovy)
 3. [ROSMOP](http://fsl.cs.illinois.edu/index.php/ROSMOP)
- * Please check [ROSMOP Installation guide](rosmop/INSTALL.md).
+ * Please check the [ROSMOP Installation guide](rosmop/INSTALL.md).
 
 ## Install and Build
 
@@ -22,13 +22,11 @@ to check out the source code from the Github repository, including ROSMOP.
 
 2. Add `<ROSRV_HOME>/bin` to your PATH.
 
-3. Follow the instructions in `<ROSRV_HOME>/rosmop/INSTALL.md`.
-
-4. Run 
+3. Run 
  * `cd <ROSRV_HOME>`
  * `catkin_make`
 
-5. Make sure the target package builds successfully.
+4. Make sure the target package builds successfully.
 
 See [docs/Usage.md](docs/Usage.md) for information on how to run ROSRV.
 Get help or report problems on
